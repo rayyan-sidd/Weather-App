@@ -27,10 +27,6 @@ A clean, responsive weather application that provides real-time weather data for
 - **Styling**: Custom CSS with Flexbox and Grid
 - **Deployment**: GitHub Pages / Netlify / Vercel
 
-## 🚀 Live Demo
-
-[View Live Application](https://your-username.github.io/weather-app) 🔗
-
 ## 📦 Installation & Setup
 
 1. **Clone the repository**
