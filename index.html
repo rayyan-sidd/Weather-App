@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🌤️ Weather App</h1>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name..." class="search-input">
+            <button id="search-btn" class="search-btn">Search</button>
+        </div>
+
+        <div id="weather-card" class="weather-card hidden">
+            <div class="weather-header">
+                <h2 id="city-name">City Name</h2>
+                <p id="country"></p>
+            </div>
+
+            <div class="weather-main">
+                <div class="temperature">
+                    <span id="temp">25</span>
+                    <span class="unit">°C</span>
+                </div>
+                <div id="weather-icon" class="weather-icon">☀️</div>
+                <p id="weather-desc" class="weather-desc">Clear sky</p>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span>💧 Humidity</span>
+                    <span id="humidity">65%</span>
+                </div>
+                <div class="detail-item">
+                    <span>💨 Wind Speed</span>
+                    <span id="wind-speed">5.2 km/h</span>
+                </div>
+                <div class="detail-item">
+                    <span>🌡️ Feels Like</span>
+                    <span id="feels-like">27°C</span>
+                </div>
+                <div class="detail-item">
+                    <span>📊 Pressure</span>
+                    <span id="pressure">1013 hPa</span>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p id="last-updated">Last updated: Just now</p>
+            </div>
+        </div>
+
+        <div id="error-message" class="error hidden">
+            <p>⚠️ City not found. Please try again.</p>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <p>Loading weather data...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
