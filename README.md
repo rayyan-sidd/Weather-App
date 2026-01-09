@@ -1,35 +1,47 @@
-# 🌤️ Weather App
+<div align="center">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/placeholder-image.png" alt="Weather App Banner" width="800">
 
-A clean, responsive weather application that provides real-time weather data for any city worldwide using the OpenWeatherMap API.
+  # ☁️ Weather App
+  
+  ### A sleek, minimal weather application providing real-time atmospheric data.
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/OpenWeatherMap-EB6E4B?style=for-the-badge&logo=openweathermap&logoColor=white" alt="API" />
+  </p>
 
-![Status](https://img.shields.io/badge/Status-Live-brightgreen)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow)
-![API](https://img.shields.io/badge/API-OpenWeatherMap-blue)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+  <h4>
+    <a href="https://rayyan-sidd.github.io/Weather-App/">View Demo</a>
+    <span> · </span>
+    <a href="https://github.com/rayyan-sidd/Weather-App/issues">Report Bug</a>
+  </h4>
+</div>
+
+---
 
 ## ✨ Features
 
-- 🔍 **City Search**: Get weather data for any city worldwide
-- 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- 🌡️ **Real-time Data**: Current temperature, humidity, wind speed, and atmospheric pressure
-- 🎯 **Feels Like Temperature**: Displays perceived temperature
-- 🌈 **Weather Icons**: Visual representation of current weather conditions
-- ⚡ **Fast Loading**: Optimized API calls with loading states
-- 🚨 **Error Handling**: User-friendly error messages for invalid cities
-- ⌚ **Last Updated Timestamp**: Shows when data was last fetched
+- 📍 **Real-time Data** — Fetches up-to-the-minute weather conditions for any city worldwide.
+- 🌡️ **Detailed Metrics** — Includes temperature, humidity, wind speed, and feels-like data.
+- 🎨 **Dynamic UI** — Beautifully responsive interface that adapts to different devices.
+- 🔍 **Smart Search** — Instant city lookups powered by the OpenWeatherMap API.
 
-## 🛠️ Technologies Used
+## 🛠️ Built With
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **API**: [OpenWeatherMap Current Weather Data API](https://openweathermap.org/current)
-- **Icons**: OpenWeatherMap weather icons
-- **Styling**: Custom CSS with Flexbox and Grid
-- **Deployment**: GitHub Pages / Netlify / Vercel
+- **Language:** JavaScript / ES6+
+- **Styling:** Modern CSS (Flexbox/Grid)
+- **API:** [OpenWeatherMap API](https://openweathermap.org/api)
+- **Icons:** FontAwesome / WeatherIcons
 
-## 📦 Installation & Setup
+## 🚀 Getting Started
 
-**Clone the repository**
+### Prerequisites
+To run this project, you will need an API Key from [OpenWeatherMap](https://home.openweathermap.org/users/sign_up).
+
+### Installation
+
+1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/weather-app.git
-   cd weather-app
+   git clone [https://github.com/rayyan-sidd/Weather-App.git](https://github.com/rayyan-sidd/Weather-App.git)
