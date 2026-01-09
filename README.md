@@ -13,7 +13,7 @@
   </p>
 
   <h4>
-    <a href="https://rayyan-sidd.github.io/Weather-App/">View Demo</a>
+    <a href="https://mausamio.netlify.app/">View Demo</a>
     <span> · </span>
     <a href="https://github.com/rayyan-sidd/Weather-App/issues">Report Bug</a>
   </h4>
